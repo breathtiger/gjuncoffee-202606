@@ -330,3 +330,16 @@ style="background-image:url('images/img-5.jpeg')"
 | 日期 | 版本 | 說明 |
 | --- | --- | --- |
 | 2026-06-22 | 1.0.0 | 建立 Bootstrap 5 單頁網站與維護規格 |
+
+
+## github
+### HTTPS
+https://github.com/breathtiger/gjuncoffee-202606.git
+
+### SSH
+git@github.com:breathtiger/gjuncoffee-202606.git
+
+
+## 對外發布網址
+
+https://breathtiger.github.io/gjuncoffee-202606/

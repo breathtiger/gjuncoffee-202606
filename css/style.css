@@ -289,3 +289,13 @@ footer {
   .about-image { min-height: 280px; box-shadow: 10px 10px 0 var(--cream); }
   #backToTop { right: 14px; bottom: 14px; width: 46px; height: 46px; }
 }
+/*以下為加入購物車按鈕css*/
+a.btnstyle {
+  color:white;
+  background-color:purple;
+  cursor: wait;
+  text-decoration: none;
+}
+a.btnstyle:hover {
+  background-color:#00438a;
+}

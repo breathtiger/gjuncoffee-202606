@@ -1,6 +1,6 @@
 const addToCartButton = document.querySelector(".btnstyle");
 
-addToCartButton.addEventListener("click", () => {
+addToCartButton?.addEventListener("click", () => {
   gtag("event", "add_to_cart", {
     currency: "新台幣",
     value: 1234,

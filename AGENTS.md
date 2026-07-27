@@ -21,6 +21,8 @@
 ```text
 website/
 ├─ index.html                 首頁與主要內容
+├─ about.html                 品牌故事頁
+├─ goal.html                  購物完成頁（Google Ads 轉換追蹤）
 ├─ AGENTS.md                  專案維護規格與 Codex 專案指引
 ├─ css/
 │  ├─ bootstrap.min.css       Bootstrap 本地壓縮版 CSS
@@ -80,6 +82,18 @@ website/
 6. 回到頂端按鈕
    - 頁面向下捲動超過 420px 後顯示
    - 點擊後平滑回到頁面頂端
+
+品牌故事頁 `about.html` 由上到下包含：
+
+1. 導覽列（與首頁相同，「品牌故事」為 `.nav-link.active`，其餘連結指回 `index.html` 的對應區塊）
+2. 單張靜態主視覺，未使用 Carousel
+3. 品牌起源：左圖右文
+4. 我們相信的事：3 張 `.value-card`，桌機每列 3 張、平板每列 2 張、手機每列 1 張
+5. 從產地到杯中：4 段左右交錯圖文，交錯以 `.flex-lg-row-reverse` 控制
+6. 數字成果：4 張 `.stat-card`
+7. 創辦人語錄 `.brand-quote`
+8. 行動呼籲區塊 `.cta-band`，連往首頁產品介紹
+9. 頁尾與回到頂端按鈕（與首頁相同）
 
 ## 5. CSS 載入順序
 
@@ -154,6 +168,14 @@ CSS 必須維持以下順序：
 | `.social-link` | 社群連結按鈕 |
 | `.footer-info` | 頁尾公司資訊 |
 | `#backToTop` | 回到頂端按鈕 |
+| `.section-cream` | 米色底色區塊 |
+| `.section-lead` | 區塊標題下方導言 |
+| `.value-card` | 品牌理念卡片 |
+| `.value-icon` | 品牌理念卡片圖示 |
+| `.journey-step` | 製程步驟編號 |
+| `.stat-card` | 數字成果卡片 |
+| `.brand-quote` | 創辦人語錄 |
+| `.cta-band` | 行動呼籲區塊 |
 
 ### 7.3 響應式斷點
 
@@ -330,6 +352,7 @@ style="background-image:url('images/img-5.jpeg')"
 | 日期 | 版本 | 說明 |
 | --- | --- | --- |
 | 2026-06-22 | 1.0.0 | 建立 Bootstrap 5 單頁網站與維護規格 |
+| 2026-07-27 | 1.1.0 | 新增品牌故事頁 `about.html` 與對應自訂樣式 |
 
 
 ## github
